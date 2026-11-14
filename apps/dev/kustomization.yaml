@@ -10,7 +10,7 @@ namespace: study-app
 namePrefix: dev-
 
 images:
-  - name: backend
-    newTag: dev
-  - name: frontend
-    newTag: dev
+  - name: ghcr.io/dkelertas-homelab/study-app-api
+    newTag: backend-v0.4.0
+  - name: ghcr.io/dkelertas-homelab/study-app-web
+    newTag: frontend-v0.1.1
